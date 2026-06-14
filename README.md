@@ -82,7 +82,7 @@ pip install -r requirements.txt
 ```bash
 pkg update && pkg install python
 pip install requests
-python alirzwirus.py
+python script.py
 ```
 
 ---
@@ -90,15 +90,15 @@ python alirzwirus.py
 ## Usage
 
 ```bash
-python alirzwirus.py
+python script.py
 ```
 
 With a manual proxy:
 
 ```bash
-http_proxy=http://127.0.0.1:8080 python alirzwirus.py
+http_proxy=http://127.0.0.1:8080 python script.py
 # or
-HTTPS_PROXY=socks5://127.0.0.1:1080 python alirzwirus.py
+HTTPS_PROXY=socks5://127.0.0.1:1080 python script.py
 ```
 
 ### Controls
@@ -146,7 +146,7 @@ Harvests MTProto proxy links from 11 public Telegram channels in parallel:
 
 ```
 alirz-proxy-injector/
-├── alirzwirus.py      # main script (v6.0)
+├── script.py      # main script (v6.0)
 ├── requirements.txt   # dependencies (requests)
 ├── .gitignore
 └── README.md
